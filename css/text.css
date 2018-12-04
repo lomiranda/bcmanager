@@ -1,0 +1,308 @@
+@font-face {
+    font-family: 'DS-Digital';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        local('DS-Digital'), url(font/DS-DIGI.TTF) format('truetype');
+}
+
+@font-face {
+    font-family: 'Gnuolane';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        local('Gnuolane'), url("font/gnuolane rg.ttf") format('truetype');
+}
+
+
+body{
+	margin: 0px;	
+	background: url('../_img/background.png');
+	background-size: auto;	
+	background-repeat: no-repeat;	
+}
+
+.mdl_button{
+	background: url('../_img/mdl_vector_p.png');
+	background-position:  0px 0px;
+	background-repeat: no-repeat;
+	width: 80px;
+    height: 80px;
+	border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+	margin-left: 10px
+}
+.ssma_button{
+	background: url('../_img/ssm_agent.png');
+	background-position:  0px 0px;
+	background-repeat: no-repeat;
+	width: 80px;
+    height: 80px;
+	border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+	
+}
+.ssmc_button{
+	background: url('../_img/ssm_customer.png');
+	background-position:  0px 0px;
+	background-repeat: no-repeat;
+	width: 80px;
+    height: 80px;
+	border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+.zabbix_button{
+	background: url('../_img/zabbix.png');
+	background-position:  0px 0px;
+	background-repeat: no-repeat;
+	width: 80px;
+    height: 80px;
+	border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+.debug_button{
+	background: url('../_img/debug.png');
+	background-position:  0px 0px;
+	background-repeat: no-repeat;
+	width: 80px;
+    height: 80px;
+	border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+	margin-left: 10px
+}
+.openproject_button{
+	background: url('../_img/openproject.png');
+	background-position:  0px 0px;
+	background-repeat: no-repeat;
+	width: 80px;
+    height: 80px;
+	border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+.gitlab_button{
+	background: url('../_img/gitlab.png');
+	background-position:  0px 0px;
+	background-repeat: no-repeat;
+	width: 80px;
+    height: 80px;
+	border: 0px;
+    background-color: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.hidden{
+    display:none;
+}
+
+.visible{
+    display:block;
+}
+
+#bodyContent{
+	width: 100%;
+	height: 100%;
+	font-family: arial;
+	font-size: 12px;
+}
+
+#leftSide{
+	width: 54%; 
+	float: left; 
+	
+}
+
+#leftContent{
+	padding-right: 45px;	
+	padding-left: 45px;
+	margin-top: 45px;	
+	border-right: 1px dotted #DDD;
+}
+
+#informations{
+	padding-bottom: 45px;	
+}
+
+#dates{
+	margin-top: 50px;
+	background: #EFEFEF;
+	padding: 20px;
+	text-align: left;
+
+}
+
+#access{
+	padding-top: 45px;
+	border-top: 1px dotted #DDD;
+	margin: 10px;
+}
+
+
+
+#rightSide{
+	width: 45%; 
+	float: left; 
+}
+
+
+#rightContent{
+	padding: 45px;	
+}
+
+
+#logo{
+	text-align: right;
+}
+
+#login{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: right;
+}
+
+#signature{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	background-position: bottom;
+}
+
+.botao{
+	background: #249dc8;
+	border: 0px;
+	color: #FFF;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.greenColor{
+	color: #71b82a;
+}
+
+.txtLogin{
+	font-family: gnuolane;
+	color: #71b82a;
+	font-size: 18px;
+}
+
+.hiddenInput{
+	border: 1px solid #DDD;
+	display:none;
+}
+
+.inputLogin{
+	margin-bottom: 5px;
+}
+
+#about{
+	margin-top: 50px;
+	background: #EFEFEF;
+	padding: 20px;
+	text-align: left;
+}
+
+h1{
+	font-weight: normal;
+	font-family: gnuolane;
+	color: #249dc8;
+	font-size: 46px;
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+h2{
+	font-weight: normal;
+	font-family: arial;
+	text-align: center;
+	color: #71b82a;
+	font-size: 28px;
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+h3{
+	font-weight: normal;
+	font-family: arial;
+	color: #71b82a;
+	font-size: 12px;
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+.content-body {
+	margin: 10px;
+	font-family: Calibri;
+	font-size: 16px;
+}
+
+.date_day {
+	color: #31B404;
+	display: inline-block;
+	font-size: 25px;
+	float: left;
+	width: 10%;
+}
+
+.date_month {
+	font-size: 12px;
+	color: #000;
+	font-weight: bold;
+}
+
+.info_content {
+	display: inline-block;
+	float: left;
+	width: 90%;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.bttn{
+	background: #249dc8;
+	border: 0px;
+	color: #FFF;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.imgLogout{
+   position: absolute;
+   bottom: 10%;
+   left: 50%;
+   margin-top: 0px; /* Half the height */
+   margin-left: -100px; /* Half the width */
+}
+
+.logoutMsg{
+	font-weight: normal;
+	font-family: gnuolane;
+	color: #249dc8;
+	font-size: 55px;
+	
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	padding: 15px;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}

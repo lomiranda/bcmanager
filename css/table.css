@@ -1,0 +1,11 @@
+table {
+    table-layout: auto;
+    border-collapse: collapse;
+    width: 70%;
+}
+/*table td {
+    border: 1px solid #ccc;
+}*/
+table td.absorbing-column {
+    width: 100%;
+}
